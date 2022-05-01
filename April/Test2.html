@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title> test 1 Document</title>
+   <style>
+       body{
+        margin: 0%;
+       }
+       .main{
+          
+           background-color: red;
+           height: 200px;
+           width: 100%;
+           padding-top: 100px;
+           margin: 150px auto;
+        
+       }
+       #sub{
+           display: flex;
+           /* height: 100px;
+           width: 100%; */
+           justify-content:space-evenly;
+          
+       }
+        #p1{
+             display: flex;
+             justify-content:flex-start;
+             align-items: flex-start;
+             margin-left: 200px;
+             background-color: green;
+             color: yellowgreen; 
+             height: 70px;
+             width: 250px;   
+       }
+       #p2{
+           display: flex;
+           justify-content:flex-start;
+           align-items:center;
+           background-color: green;
+           color: yellowgreen;
+           height: 70px;
+           width: 250px;
+       }
+       #p3{
+           display: flex;
+           justify-content: flex-end;
+           align-items: flex-end;
+           margin-right: 200px;
+           background-color: green;
+           color: yellowgreen;
+           height: 70px;
+           width: 250px;
+       }
+   </style>
+</head>
+<body>
+    <div class="main">
+        <div id="sub">
+           <div id="p1">Child1</div>
+           <div id="p2" >Child2</div>
+           <div id="p3">Child3</div>
+        </div>
+    </div>
+
+</body>
+</html>
