@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>week-task</title>
+    <style>
+.nav {
+  position: fixed;
+  top: 0%;
+  box-shadow: 0px 0px 8px rgb(0 0 0 / 6%);
+  width: 100%;
+  background-color:black;
+}
+ul {
+  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-top: 0%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 25px;
+  background-color:black;
+  text-decoration: none;
+  color:white;
+}
+.container {
+  width: 100%;
+  margin: 2% 0%;
+  padding: 6% 0%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  background-color: #dcdfb7;
+}
+ .container.image img {
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+  weight: 500px;
+}
+
+ .container.content {
+  font-family: "Lato", sans-serif;
+  padding: 25% 4%;
+}
+
+ .title span{
+  font-size: 50px;
+  margin: 0%;
+  font-weight: 700;
+}
+
+.content .desc {
+  font-size: 26px;
+}
+
+.content .btn {
+  background-color: #6b8363;
+  color: #fff;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2% 5%;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mulish:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  />
+</head>
+<body>
+    <div class="main-container">
+        <div class="nav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Potfolio">Potfolio</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+            <div class="container" >
+                <div class="image">
+                  <img src="https://th.bing.com/th/id/OIP.t4EFa9ukOIaEB7btc-ogOAHaE6?pid=ImgDet&rs=1" alt="Hyundai Santroimg" />
+                </div>
+                <div class="content">
+                  <p class="title"><span>Hyundai Santro</span></p>
+                  <p class="desc">Hyundai Santro price starts at Rs 4.87 Lakh in New Delhi </p>
+                  <p class="desc">The all-new Hyundai Santro is launched in India as an entry-level B-segment hatchback. The new Santro is feature loaded, has a CNG and AMT options, and is handsomely priced as well.</p>
+                  <button class="btn" onclick="window.location.href = '#image';">More Images</button>
+                </div>
+           
+                
+                 <div class="content">
+                    <p class="title"><span>Tata Tigor</span></p>
+                    <p class="desc">Tata Tigor price starts at ₹ 5.59 Lakh </p>
+                    <p class="desc">Tata Tigor has been updated with fresh set of features and fresh design updates. Additionally, the vehicle gets BS6 compliant petrol and diesel engine options.</p>
+                    <button class="btn" onclick="window.location.href = '#image';">More Images</button>
+                </div>
+                <div class="image">
+                    <img src="https://www.bing.com/th?id=OIP.4ZL4xJrUdeqaffZdq-rRawHaEj&w=236&h=183&rs=1&o=5&dpr=1.25&pid=3.1&rm=2"
+                    padding="30px" alt="Tata Tigor" />
+                 </div>
+          
+                <div class="image">
+                     <img src="https://www.bing.com/th?id=OIP.aPDaLUXVswNvJVFKgK1jUAHaFj&w=236&h=183&rs=1&o=5&dpr=1.25&pid=3.1&rm=2"  alt="Maruti Suzuki Swift" />
+                </div>
+                <div class="content">
+                    <p class="title"><span>Maruti Suzuki Swift</span></p>
+                    <p class="desc"> Maruti Suzuki Swift price starts at ₹ 5.14 Lakh </p>
+                    <p class="desc">It is always a big thing when the auto industry’s strongest product undergoes an update and it is no different this time around with the modern era Maruti Suzuki Swift undergoing its third major</p>
+                    <button class="btn" onclick="window.location.href = '#image';">More Images</button>
+                </div>
+          </div>
+</body>
+</html>
