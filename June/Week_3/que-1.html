@@ -1,0 +1,40 @@
+<!-- An array is given, return the sum of all the positives numbers.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <script>
+
+    function positivenumsum(){
+
+    const input = [ 1, -5, 2, 10, -30, 29, 50];
+      let sum = 0; 
+      let negative=[];
+      
+      for (let i = 0; i < input.length; i++) {
+
+       if (input[i]<0 ){
+          negative.push(input[i]);
+       }
+       else{
+       document.getElementById("output").innerHTML = ("sum od all positive number",sum = sum + input[i]);
+       }
+    }
+  }
+    positivenumsum();
+    </script>
+</head>
+<body>
+  <h2>Question no-1</h2>
+  <h4>An array is given, return the sum of all the positives numbers.</h4>
+   <h5>Solution:-</h5>
+   <P id="output"></P>
+</body>
+</html>
